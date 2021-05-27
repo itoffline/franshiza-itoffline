@@ -276,6 +276,86 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section color="--dark">
+			<Text
+				as="h2"
+				font="--headline1"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				transition="all 0s --transitionTimingFunction-easeIn 0s"
+			>
+				Вопрос&Ответ
+			</Text>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="--primary"
+					category="md"
+					icon={MdHelp}
+				/>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					Is there life on Mars?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="--primary"
+					category="md"
+					icon={MdHelp}
+				/>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					How much salt is in the ocean?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="--primary"
+					category="md"
+					icon={MdHelp}
+				/>
+				<Text as="h3" font="--headline3" margin="10px 0">
+					Why is the sky blue?
+				</Text>
+				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
+					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+				</Text>
+			</Box>
+		</Section>
 		<Section
 			color="--light"
 			padding="100px 0"
@@ -435,6 +515,13 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
+		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator />
 		<Components.QuarklycommunityKitScrollIndicator />
 		<Link
 			font={"--capture"}
